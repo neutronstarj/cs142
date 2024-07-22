@@ -1,0 +1,27 @@
+body{
+    white-space: nowrap;
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-right:10px; /* seems outside the container, repect to other container */
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: Tahoma;
+}
+
+div:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color:goldenrod
+}
+
+div:last-of-type{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+}
